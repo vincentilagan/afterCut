@@ -1,4 +1,11 @@
 # AfterCut 🎬
+![AfterCut Banner](banner.png)
+
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-AfterCut-green)](https://github.com/vincentilagan/afterCut)
+
+Created by **Vincent Ilagan**
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)

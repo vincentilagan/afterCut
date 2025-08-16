@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AfterCut 🎬
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
@@ -43,3 +44,7 @@ Created by **Vincent Ilagan**
 **Clone this repository:**
 ```bash
 git clone https://github.com/vincentilagan/afterCut.git
+=======
+# afterCut
+AfterCut is a Python tool that automatically detects scene cuts in your video and generates an Adobe After Effects script to split layers at each cut. It streamlines editing, allows placeholder backgrounds for multiple clips, and speeds up revisions by pre-composing cut scenes efficiently.
+>>>>>>> fb9858c68c33154282d967927c3d7a4e2a01c543

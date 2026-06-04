@@ -1,6 +1,6 @@
 import os
 from tkinter import Tk, filedialog, Button, Label, Frame
-from scenedetect import VideoManager, SceneManager
+from scenedetect import SceneManager, open_video
 from scenedetect.detectors import ContentDetector
 
 # Sensitivity for scene detection
@@ -22,13 +22,11 @@ def process_video():
     jsx_file = os.path.join(folder, base_name + ".jsx")  # Save in same folder
 
     # Scene detection
-    video_manager = VideoManager([video_file])
+    video = open_video(video_file)
     scene_manager = SceneManager()
     scene_manager.add_detector(ContentDetector(threshold=THRESHOLD))
-    video_manager.start()
-    scene_manager.detect_scenes(frame_source=video_manager)
+    scene_manager.detect_scenes(video=video)
     scenes = scene_manager.get_scene_list()
-    video_manager.release()
 
     print(f"Detected {len(scenes)} cuts in {video_file}")
 
